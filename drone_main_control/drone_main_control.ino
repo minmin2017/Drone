@@ -16,10 +16,9 @@ void setup() {
     Serial.print("WiFi connected, IP = ");
     Serial.println(WiFi.localIP());
   }
-  net.onA(doA);
-  net.onB(doB);
-  net.onC(doC);
-  net.onReset(doReset);
+  
+
+  
 }
 
 void loop() {
